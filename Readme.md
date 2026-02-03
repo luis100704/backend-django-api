@@ -23,34 +23,28 @@ Este backend forma parte de un proyecto full stack orientado a aprendizaje y por
 - django-cors-headers
 
 ## ▶️ Cómo ejecutar el proyecto
+```bash
 
 ### 1. Crear entorno virtual
-```bash
 python -m venv venv
 
 ### 2. Activar entorno virtual
 En Windows:
-bash
 venv\Scripts\activate
 
 En Linux / Mac:
-bash
 source venv/bin/activate
 
 ### 3. Instalar dependencias
-bash
 pip install -r requirements.txt
 
 ### 4. Ejecutar migraciones
-bash
 python manage.py migrate
 
 ### 5. Crear superusuario (opcional)
-bash
 python manage.py createsuperuser
 
 ### 6. Ejecutar servidor
-bash
 python manage.py runserver
 
 La API estará disponible en:
